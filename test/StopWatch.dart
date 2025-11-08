@@ -72,13 +72,12 @@ class _MyHomePageState extends State<MyHomePage> {
       String tempS = "00";
       String tempM = "00";
 
-      // Якщо десятки секунд досягають 100, збільшуємо секунди
+      
       if (tenthofsecond == 100) {
         seconds++;
-        tenthofsecond = 0; // Скидаємо десятки секунд після збільшення секунд
+        tenthofsecond = 0; 
       }
 
-      // Форматуємо десятки секунд
       if (tenthofsecond < 10) {
         tempTS = "0" + tenthofsecond.toString();
       } else {
@@ -89,7 +88,7 @@ class _MyHomePageState extends State<MyHomePage> {
         minutes++;
         seconds = 0;
       }
-      // Форматуємо секундах
+     
       if (seconds < 10) {
         tempS = "0" + seconds.toString();
       } else {
