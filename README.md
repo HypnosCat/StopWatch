@@ -14,9 +14,8 @@ Stopwatch App è un'applicazione mobile minimalista per la misurazione del tempo
 - Elenco scorrevole: visualizza tutti i punti fissi
 
 ## Schermate
-![](/assets/screenshot/s1.png)
-![](/assets/screenshot/s2.png)
-![](/assets/screenshot/s3.png)
+| Schermata iniziale | Cronometro attivo | Punti registrati |
+![](/assets/screenshot/s1.png) | ![](/assets/screenshot/s3.png) | ![](/assets/screenshot/s2.png)
 
 ## Installazione
 - Requisiti
